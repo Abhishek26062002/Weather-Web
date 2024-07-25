@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syncopate:wght@400;700&display=swap');
+*{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 150px;
+}
+.weather{
+    width: 500px;
+    height: 320px;
+    background: rgba(13, 2, 2, 0.3);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(3px);
+    padding: 3%;
+}
+form{
+    width: 90%;
+    max-width: 370px;
+    margin: 5%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    border-radius: 500px;
+    padding: 0 5px 0 18px;
+    background: transparent;
+    border: 2px solid white;
+    
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(3px);
+}
+form input{
+    flex: 1;
+    outline: 0;
+    background: transparent;
+    border: 0;
+    color: white;
+    padding-right: 18px;
+    font-size: 18px;
+}
+form button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+    img:hover{
+        height: 25px;
+        width: 25px;
+    }
+
+
+img{
+    height: 20px;
+    width: 20px;
+    transition: 0.3s ease-out;
+}
+.city{
+    margin: 5%;
+    line-height: 0%;
+}
+.city h1{
+    font-size: 35px;
+}
+#rain{
+
+    height: 78px;
+    width: 142px;
+    margin: 5%;
+} 
+#forecast{
+    height: 140px;
+    width: 200px;
+    display: flex;
+    
+
+}
+.details {
+    line-height: 80%;
+}
+#cen{
+    font-size: 40px;
+}
+#fulldetails{
+    display: flex;
+    justify-content: space-between;
+}
+.winhum{
+    padding-top: 5%;
+    line-height: 10px;
+    height: 100px;
+    width: 150px;
+}
+.winhum p{
+    font-size: 20px;
+}
+.winhum img{
+    height: 50px;
+    width: 50px;
+    padding-right: 5px;
+}
+.forecast{
+    display: flex;
+    justify-content: space-around;
+
+}
+.wind{
+    display: flex;
+    font-size: 18px;
+}
+.humi{
+    display: flex;
+    font-size: 20px;
+}
+::placeholder{
+    color: #fff;
+}
+#win{
+    font-size: 15px;
+}
+#sp{
+    font-size: 18px;
+}
+#hide{
+    display: none;
+}
+
+
+    
